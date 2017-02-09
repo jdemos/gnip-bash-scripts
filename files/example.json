@@ -1,0 +1,6 @@
+{
+    "query": "\"Big Data\" lang:en",
+    "fromDate": "201701230000",
+    "toDate": "201701300000",
+    "bucket": "day"
+}
