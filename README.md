@@ -16,9 +16,8 @@ Follow the steps below to get this package of simple scripts running on your mac
 ```
   PW='INSERT-YOUR-GNIP-PW'
   UN='INSERT-YOUR-GNIP-USERNAME'
-  ACCOUNT='INSERT-YOUR-GNIP-ACCOUNT-NAME'
+  ACCOUNT='INSERT-YOUR-GNIP-ACCOUNT-NAME' // account name is case-sensitive and you can't have spaces between var name, =, and value.
 ```
-NOTE: The 'ACCOUNT' is case-sensitive and you cannot have spaces between the var name, the equal sign, and the variable value.
 4. Add your endpoint stream label (e.g., 'dev', 'prod') to each script so that it will run properly for your account.
 5. Run the scripts! Here are some examples below:
     1. Run `$ sh GET-decahose.sh` to connect to your Decahose stream.
