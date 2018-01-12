@@ -5,7 +5,7 @@
 source ~/gnip-env.sh
 
 base_url="https://gnip-api.twitter.com"
-label="prod"
+label="prod" # Enter your endpoint label if different than 'prod'
 
 header="Replay Rules on '${label}' stream:"
 border="=================================="

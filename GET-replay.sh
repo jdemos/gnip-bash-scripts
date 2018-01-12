@@ -5,7 +5,7 @@
 source ~/gnip-env.sh
 
 base_url="https://gnip-stream.gnip.com"
-label="prod"
+label="prod" # Enter your endpoint label if different than 'prod'
 
 fromDate=$1
 toDate=$2
