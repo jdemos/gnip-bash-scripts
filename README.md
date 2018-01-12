@@ -21,7 +21,7 @@ Below is a list of APIs and endpoints that are currently supported:
 
 Follow the steps below to get this package of simple scripts running on your machine:
 
-1. Clone the repository (Need help? See this [help article](https://help.github.com/articles/cloning-a-repository/))
+1. Clone the repository (Need help? See [this article](https://help.github.com/articles/cloning-a-repository/))
 2. Create a file called 'gnip-env.sh' at the root level of your user directory (e.g., `/Users/jdemos/gnip-env.sh`). Must be named exactly as specified. Below are helpful steps (if needed):
     1. Run `$ cd` to get to the root level of your user dir
     2. Run `$ touch gnip-env.sh` to create the file
