@@ -44,7 +44,7 @@ Using jq to parse the API response and piping the data to a file for storage/ref
 
 ### Using jq
 
-jq is an excellent utility for json response objects on the fly. I've provided a **jq.md** file at the root of this repo, so please see that for further details.
+jq is a command line utility for parsing json response objects on the fly. I've provided a **jq.md** file at the root of this repo, so please see that for further details and common recipes.
 
 ### Piping data to a file
 
