@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# This script will only create an HPT job with the job details as defined in the files/hpt-data.json file.
+# Edit the 'hpt-data.json' file prior to running to adjust he query and timeframe parameters.
+
 # Run: $ sh POST-hpt.sh
 
 source ~/gnip-env.sh

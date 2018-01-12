@@ -1,5 +1,4 @@
 # Twitter Enterprise API + jq recipes
----
 
 ## How to intall jq:
 
