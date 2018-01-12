@@ -1,6 +1,7 @@
 {
-    "query": "(url_contains:winners-for-3-d-printed-container-contest OR url_contains:students-to-design-3-d-space-containers OR url_contains:youtube.com/watch?v=efwHYbYMOSM OR (3D Space Container Challenge) OR (3-D Space Container Challenge) OR url_contains:facebook.com/NASA/videos/10153236282211772 OR (NASA Container Contest) OR (NASA Container Challenge) OR (Future Engineers Space Container))",
-    "fromDate": "201506010000",
-    "toDate": "201506060000",
-    "maxResults": 10
+    "query": "from:TwitterDev OR @TwitterDev",
+  	"fromDate": "201712120000",
+  	"toDate": "201801120000",
+    "maxResults": 50
 }
+

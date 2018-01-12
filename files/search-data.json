@@ -1,6 +1,0 @@
-{
-    "query": "gnip",
-    "fromDate": "201701290000",
-    "toDate": "201701302300",
-    "maxResults": 10
-}

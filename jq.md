@@ -1,15 +1,15 @@
----------------------------------------
-Gnip API + jq command line snippets
----------------------------------------
+# Twitter Enterprise API + jq recipes
+---
 
-INSTALLATION: https://stedolan.github.io/jq/download/
+## How to intall jq:
+
+https://stedolan.github.io/jq/download/
 
 - OS X: Use Homebrew to install jq 1.5 with `brew install jq`
 - Windows: Use Chocolatey NuGet to install jq 1.5 with `chocolatey install jq`
 
-
-Streaming (PowerTrack, Volume Streams)
-=======================================
+## Streaming (PowerTrack, Volume Streams)
+---
 
 // Pretty print results
 
@@ -19,15 +19,17 @@ Streaming (PowerTrack, Volume Streams)
 
   jq '.["favoritesCount"]'
 
-  jq '.["gnip"]'
+  jq '.gnip'
+
+  jq '.entities.polls'
 
 
-Search (30-day, FAS)
-=======================================
+## Search (30-day, FAS)
+---
 
 // Pretty print results array
 
-  jq '.results[] 
+  jq '.results[]'
 
 // Parse root-level `totalCount` field from Counts result
 
@@ -40,7 +42,10 @@ Search (30-day, FAS)
 // Creates an object with "id" and "body" as the two items in it.
   
   jq '.results[] | {(.id): .body}'
+  jq '.results[] | {(.id_str): .text}' // orig format
 
 // Returns requested fields from search results in CSV format.
 
-  jq '.results[] | (.id + ", " + .body)' 
+  jq '.results[] | (.id + ", " + .body)' // AS format
+
+  jq '.results[] | (.id_str + ", " + .text)' // original format

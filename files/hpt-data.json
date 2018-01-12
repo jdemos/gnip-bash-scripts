@@ -1,0 +1,18 @@
+{
+    "publisher": "twitter",
+    "streamType": "track_v2",
+    "dataFormat": "activity_streams",
+    "fromDate": "201505041600",
+    "toDate": "201505042100",
+    "title": "applemusic-test",
+    "rules": [
+        {
+            "tag": "applemusic_handle",
+            "value": "from:applemusic -is:retweet"
+        },
+        {
+            "tag": "applemusic_id",
+            "value": "from:74580436 -is:retweet"
+        }
+    ]
+}

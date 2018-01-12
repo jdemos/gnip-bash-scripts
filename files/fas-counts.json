@@ -1,6 +1,6 @@
 {
-    "query": "(\"紫外线\" OR \"日光\") (\"皮肤护理\" OR \"皮肤保养\" OR \"护肤\" OR \"面部护理\" OR \"脸部保养\")",
-    "fromDate": "201701010000",
-    "toDate": "201701300000",
-    "bucket": "day"
+	"query":  "from:TwitterDev OR @TwitterDev",
+  "fromDate": "201712120000",
+  "toDate": "201801120000",
+  "bucket": "day"
 }
