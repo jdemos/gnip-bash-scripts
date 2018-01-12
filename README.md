@@ -2,8 +2,6 @@
 
 Simple bash scripts that act as a wrapper for running curl commands against the Twitter Enterprise APIs (e.g., Gnip APIs). Extracts basic auth details into a env file, extracts some endpoint details as variables, and provides distinct json files (files/...) to help separate the request from the query.
 
-Support APIs and 
-
 ## Getting started
 
 Follow the steps below to get this package of simple scripts running on your machine:
