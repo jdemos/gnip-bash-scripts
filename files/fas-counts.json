@@ -1,5 +1,5 @@
 {
-	"query":  "from:TwitterDev OR @TwitterDev",
+  "query":  "from:TwitterDev OR @TwitterDev",
   "fromDate": "201712120000",
   "toDate": "201801120000",
   "bucket": "day"

@@ -13,7 +13,7 @@ counts_query="files/fas-counts.json"
 data_req="https://data-api.twitter.com/search/fullarchive/accounts/${ACCOUNT}/${label}.json"
 counts_req="https://data-api.twitter.com/search/fullarchive/accounts/${ACCOUNT}/${label}/counts.json"
 
-if [ $1 == "counts" ]
+if [[ $1 == "counts" ]]
 then
 	curl --compressed -u${UN}:${PW} "${counts_req}" -X POST -d @${counts_query}
 else

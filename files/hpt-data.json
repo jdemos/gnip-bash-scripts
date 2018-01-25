@@ -1,18 +1,18 @@
 {
-    "publisher": "twitter",
-    "streamType": "track_v2",
-    "dataFormat": "original",
-    "fromDate": "201701010000",
-    "toDate": "20170131235900",
-    "title": "twitterdev",
-    "rules": [
-        {
-            "tag": "twitterdev_handle",
-            "value": "from:TwitterDev"
-        },
-        {
-            "tag": "twitterdev_mentions",
-            "value": "@twitterdev"
-        }
-    ]
+  "publisher": "twitter",
+  "streamType": "track_v2",
+  "dataFormat": "original",
+  "fromDate": "201701010000",
+  "toDate": "20170131235900",
+  "title": "twitterdev",
+  "rules": [
+    {
+      "tag": "twitterdev_handle",
+      "value": "from:TwitterDev"
+    },
+    {
+      "tag": "twitterdev_mentions",
+      "value": "@twitterdev"
+    }
+  ]
 }
